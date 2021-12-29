@@ -1,0 +1,557 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:hsl(0, 0%, 100%);
+}
+
+body{
+
+
+    background-image : url('images/bg-curvy-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: -35px 700px;
+    background-size: 100%;
+    background-color: hsl(218, 28%, 13%);
+    
+    font-family: 'Open Sans';
+    position: relative;
+    min-width: 375px;
+    
+
+}
+
+
+ion-icon{
+
+    font-size: 20px;
+}
+/* .floater{
+
+    position: absolute;
+    top: 96%;
+    
+    z-index: 1;
+    height: 500px;
+    left: -5%;
+    right: 100%;
+    display: none;
+
+
+
+
+} */
+.menu{
+
+
+    display: flex;
+    font-family: 'Raleway';
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+    padding: 0 70px;
+    font-weight: 400;
+    background-color: hsl(217, 28%, 15%);
+    
+}
+
+.menu img{
+
+    height: 40px;
+}
+
+
+
+.menu ul{
+
+    list-style-type: none;
+    display: inline-flex;
+    
+    place-items: center;
+    /* justify-content: space-around; */
+    
+
+}
+
+.menu li{
+
+
+    display: inline-block;
+    margin-right: 50px; 
+}
+
+.menu a{
+
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+
+}
+
+.central-theme{
+
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    place-content: center;
+    background-color: hsl(217, 28%, 15%);
+    
+}
+
+.central-theme img{
+
+
+    width: 600px;
+}
+
+.central-theme h2{
+
+    text-align:center;
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 40px;
+    
+    
+
+}
+
+.central-theme p{
+
+
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+    /* position: relative;
+    z-index: 3; */
+}
+
+.central-theme button{
+
+
+    background-color: hsl(198, 60%, 50%);
+    background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    padding: 13px 70px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+    position: relative;
+    z-index: 3;
+    
+}
+
+.perks{
+
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 160px;
+    place-content: center;
+    
+    /* height: 500px; */
+    /* align-items: center; */
+    padding: 0 100px;
+    margin-bottom: 160px;
+    row-gap: 100px;
+    width: 100%;
+    /* background-image: url('images/bg-curvy-desktop.svg'); */
+    /* position: relative; */
+    /* z-index: 3; */
+}
+
+.desc{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.desc *{
+
+    text-align: center;
+    
+}
+
+.desc p{
+
+    padding: 0 110px;
+}
+
+.desc h4{
+
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.desc img{
+
+
+    width: 70px;
+}
+
+.produce{
+
+
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+    padding: 0 40px;
+    margin-bottom: 250px;
+    
+}
+
+.produce h2{
+
+
+    font-size: 30px;
+    font-stretch:extra-expanded;
+
+}
+
+
+
+.textees p{
+
+
+    margin-top: 20px;
+}
+
+.textees a{
+
+
+    color: hsl(176, 68%, 64%);
+    text-underline-offset: 5px;
+    
+    
+}
+
+.reviews{
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 70px;
+}
+
+.rev{
+
+
+    background-color: hsl(219, 30%, 18%);
+    padding: 30px 40px;
+    border-radius: 7px;
+}
+
+.info{
+
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.info img{
+
+
+    border-radius: 20px;
+    height: 40px;
+    margin-right: 10px;
+    transform: translateY(2px);
+}
+
+span{
+
+    font-size: 10px;
+}
+
+.early-access{
+
+    margin-top: 160px;
+    background-color:hsl(217, 28%, 15%);
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 50px 80px;
+    position: absolute;
+    /* top: 50%; */
+    
+    left: 20%;
+    top: 79%;
+
+
+}
+
+.early-access h3{
+
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.early-access p{
+
+
+    font-size: 14px;
+    margin-bottom: 20px;
+
+}
+
+.early-access button{
+    background-color: hsl(198, 60%, 50%);
+    background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    padding: 13px 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+
+}
+
+input[type="text"]{
+
+
+    height: 40px;
+    width: 400px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    margin-right: 20px;
+
+}
+
+.reach{
+
+    display: flex;
+    justify-content: space-evenly;
+    /* place-content: center; */
+    background-color: hsl(216, 53%, 9%);
+    height: 400px;
+    /* align-items: center; */
+    padding-top: 200px;
+    margin-top: 400px;
+
+}
+
+.reach p{
+  
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+
+
+}
+
+ion-icon{
+
+    margin-right: 10px;
+}
+
+
+
+.block li{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.block ul{
+
+   list-style-type: none;
+
+}
+
+.block ul li{
+
+    margin-bottom: 20px;
+}
+
+.two{
+
+    font-size: 12px;
+}
+
+.five li{
+
+    display: inline;
+}
+
+
+@media screen and (max-width: 900px){
+    .menu{
+
+
+        padding: 0;
+        
+    }
+
+    .menu li{
+
+        margin-right: 20px;
+        font-size: 14px;
+    }
+
+    .menu img{
+
+
+        height: 28px;
+        margin-left: 10px;
+    }
+    
+
+    .central-theme img{
+
+        width: 300px;
+
+    }
+
+    .central-theme h2{
+
+        font-size: 25px;
+
+    }
+
+    .central-theme p{
+
+
+        font-size: 14px;
+    }
+
+    .perks{
+     display: flex;
+     flex-direction: column;
+     padding: 0;
+     padding-right: 10px;
+     text-align: none;
+
+     
+        
+    }
+
+    .desc p{
+
+
+        padding: 0
+
+    }
+
+    .produce{
+
+
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .produce img{
+
+
+        height: 300px;
+
+    }
+    
+    .reviews{
+
+        flex-direction: column;
+        padding: 0 20px;
+
+    }
+
+    .rev{
+
+        width: 100%;
+        padding: 10px 10px;
+        margin-bottom: 30px;
+        justify-content: flex-start;
+        text-align: center;
+
+    }
+    
+
+    .early-access{
+
+        width: 80%;
+        left: 9%;
+        top: 72%;
+
+        
+    }
+    
+
+    input[type="text"]{
+
+
+        width: 90%;
+        margin-bottom: 40px;
+        color: black;
+        padding: 10px;
+        margin-left: 15px;
+    }
+
+    form{
+
+
+        display: flex;
+        flex-direction: column;
+        /* place-content: center; */
+        justify-content: center;
+        align-items: center;
+    
+
+    }
+
+
+    .early-access button{
+       width: 90%;
+       padding: 10px 10px;
+    }
+
+
+    .reach{
+
+
+        flex-direction: column;
+        /* padding-top: 900px; */
+        place-content: center;
+        height: fit-content;
+        padding-top: 300px;
+
+    }
+
+    .block{
+
+
+        margin-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+
+    ion-icon{
+
+        margin-right: 4px;
+    }
+
+    .block li{
+
+
+        display: block;
+    }
+
+    .five ul{
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+   
+    
+
+}
