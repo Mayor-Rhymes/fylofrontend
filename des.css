@@ -555,3 +555,15 @@ ion-icon{
     
 
 }
+@media screen and (max-width: 500px){
+    
+    
+    .early-access{
+
+        width: 80%;
+        left: 9%;
+        top: 60%;
+
+        
+    }
+}
